@@ -11,9 +11,6 @@
     .feature-list .item {
         flex-basis: calc(100% / 4 - 30px);
     }
-    .feature-svg {
-        display: flex;
-    }
 }
 
 .feature-title {
@@ -30,7 +27,7 @@
 }
 
 .feature-svg {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     height: 120px;

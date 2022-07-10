@@ -5,11 +5,9 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 768px) {
+            min-width: $tablet;
+            display: flex;
+        }
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        min-width: $tablet;
-        display: flex;
-    }
-}
